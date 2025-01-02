@@ -307,7 +307,7 @@ async def start(client, message):
                 else:
                     button = [[
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Tmr_Botz_Support'),
-                        InlineKeyboardButton('Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TMR_movie_request_group')
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Tmr_Botz')
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -414,7 +414,7 @@ async def start(client, message):
                 else:
                     button = [[
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Tmr_Botz_Support'),
-                        InlineKeyboardButton('Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TMR_movie_request_group')
+                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Tmr_Botz')
                     ]]
                 try:
                     p = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -542,7 +542,7 @@ async def start(client, message):
                     return
             button = [[
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Tmr_Botz_Support'),
-                InlineKeyboardButton('Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TMR_movie_request_group')
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Tmr_Botz')
             ]]
             if STREAM_MODE == True:
                 button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
@@ -602,7 +602,7 @@ async def start(client, message):
                     return
             button = [[
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Tmr_Botz_Support'),
-                InlineKeyboardButton('Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TMR_movie_request_group')
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Tmr_Botz')
             ]]
             if STREAM_MODE == True:
                 button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
@@ -664,7 +664,7 @@ async def start(client, message):
             return
     button = [[
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Tmr_Botz_Support'),
-        InlineKeyboardButton('Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TMR_movie_request_group')
+        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Tmr_Botz')
     ]]
     if STREAM_MODE == True:
         button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
