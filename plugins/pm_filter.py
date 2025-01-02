@@ -2287,7 +2287,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url=OWNER_LNK")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="OWNER_LNK")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
