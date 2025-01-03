@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b>Hey {},\n\nHere You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href='https://www.google.com/'>Google</a> Spelling..!! \n\<blockquote>nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Tmr_Developer'>Tᴍʀ ʙᴏᴛᴢ</a></blockquote></b>"""
+    START_TXT = """<b>Hey {},\n\nHere You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href='https://www.google.com/'>Google</a> Spelling..!! \n\n<blockquote>ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Tmr_Developer'>Tᴍʀ ʙᴏᴛᴢ</a></blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
