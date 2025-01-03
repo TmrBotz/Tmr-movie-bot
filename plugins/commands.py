@@ -99,7 +99,8 @@ async def start(client, message):
             return
         try:
             btn = [[
-                InlineKeyboardButton("❆ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
+                InlineKeyboardButton("❆ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❆", url=f'https://t.me/+H7BylO18B39lZjhl'),
+                InlineKeyboardButton("❆ Jᴏɪɴ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
             ]]
             if message.command[1] != "subscribe":
                 if REQUEST_TO_JOIN_MODE == True:
@@ -117,12 +118,12 @@ async def start(client, message):
                         btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
             if REQUEST_TO_JOIN_MODE == True:
                 if TRY_AGAIN_BTN == True:
-                    text = "**🕵️ Jᴏɪɴ Tʜᴇ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Gᴇᴛ Mᴏᴠɪᴇ Fɪʟᴇ\n\n👨‍💻 Fɪʀsᴛ Cʟɪᴄᴋ Oɴ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Bᴜᴛᴛᴏɴ, Tʜᴇɴ Cʟɪᴄᴋ Oɴ Rᴇǫᴜᴇsᴛ Tᴏ Jᴏɪɴ Bᴜᴛᴛᴏɴ Aғᴛᴇʀ Cʟɪᴄᴋ Oɴ Tʀʏ Aɢᴀɪɴ Bᴜᴛᴛᴏɴ.**"
+                    text = "**♻️ नीचे दिए गए बटन से हमारे बॉट अपडेट चैनल से जुड़ें। जब तक आप दोनों अपडेट चैनल से नहीं जुड़ेंगे, बोट  आपको मूवी नहीं देगा...\n\n♻️ Jᴏɪɴ Oᴜʀ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Fʀᴏᴍ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ. Bᴏᴛ Wɪʟʟ Nᴏᴛ Gɪᴠᴇ Yᴏᴜ Mᴏᴠɪᴇ Uɴᴛɪʟ Yᴏᴜ Jᴏɪɴ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ...**"
                 else:
                     await db.set_msg_command(message.from_user.id, com=message.command[1])
-                    text = "**🕵️ Jᴏɪɴ Tʜᴇ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Gᴇᴛ Mᴏᴠɪᴇ Fɪʟᴇ\n\n👨‍💻 Fɪʀsᴛ Cʟɪᴄᴋ Oɴ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Bᴜᴛᴛᴏɴ, Tʜᴇɴ Cʟɪᴄᴋ Oɴ Rᴇǫᴜᴇsᴛ Tᴏ Jᴏɪɴ Bᴜᴛᴛᴏɴ.**"
+                    text = "**♻️ नीचे दिए गए बटन से हमारे बॉट अपडेट चैनल से जुड़ें। जब तक आप दोनों अपडेट चैनल से नहीं जुड़ेंगे, बोट  आपको मूवी नहीं देगा...\n\n♻️ Jᴏɪɴ Oᴜʀ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Fʀᴏᴍ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ. Bᴏᴛ Wɪʟʟ Nᴏᴛ Gɪᴠᴇ Yᴏᴜ Mᴏᴠɪᴇ Uɴᴛɪʟ Yᴏᴜ Jᴏɪɴ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ...**"
             else:
-                text = "**🕵️ Jᴏɪɴ Tʜᴇ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Gᴇᴛ Mᴏᴠɪᴇ Fɪʟᴇ\n\n👨‍💻 Fɪʀsᴛ  Cʟɪᴄᴋ Oɴ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Bᴜᴛᴛᴏɴ, Tʜᴇɴ Jᴏɪɴ Cʜᴀɴɴᴇʟ Aғᴛᴇʀ Cʟɪᴄᴋ Oɴ Tʀʏ Aɢᴀɪɴ Bᴜᴛᴛᴏɴ**"
+                text = "**♻️ नीचे दिए गए बटन से हमारे बॉट अपडेट चैनल से जुड़ें। जब तक आप दोनों अपडेट चैनल से नहीं जुड़ेंगे, बोट  आपको मूवी नहीं देगा...\n\n♻️ Jᴏɪɴ Oᴜʀ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Fʀᴏᴍ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ. Bᴏᴛ Wɪʟʟ Nᴏᴛ Gɪᴠᴇ Yᴏᴜ Mᴏᴠɪᴇ Uɴᴛɪʟ Yᴏᴜ Jᴏɪɴ Bᴏᴛʜ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ...**"
             await client.send_message(
                 chat_id=message.from_user.id,
                 text=text,
